@@ -1,6 +1,6 @@
-## ReachSuite AI
+## Reachsuite AI
 
-This repo contains the code for running the ReachSuite AI in 2 environments:
+This repo contains the code for running the Reachsuite AI in 2 environments:
 
 1. `dev`: A development environment running locally on docker
 2. `prd`: A production environment running on AWS ECS
@@ -65,7 +65,7 @@ cp -r workspace/example_secrets workspace/secrets
 cp example.env .env
 ```
 
-## Local ReachSuite AI
+## Local Reachsuite AI
 
 ### 1. Install [docker desktop](https://www.docker.com/products/docker-desktop)
 
