@@ -1,0 +1,613 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://magitech3.monday.com/",
+    "httpVersion": "http/2.0",
+    "headers": [
+      {
+        "name": ":authority",
+        "value": "magitech3.monday.com"
+      },
+      {
+        "name": ":method",
+        "value": "GET"
+      },
+      {
+        "name": ":path",
+        "value": "/"
+      },
+      {
+        "name": ":scheme",
+        "value": "https"
+      },
+      {
+        "name": "accept",
+        "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      },
+      {
+        "name": "accept-encoding",
+        "value": "gzip, deflate, br"
+      },
+      {
+        "name": "accept-language",
+        "value": "en-US,en;q=0.9"
+      },
+      {
+        "name": "cache-control",
+        "value": "no-cache"
+      },
+      {
+        "name": "cookie",
+        "value": "m_landing_page=https://monday.com/; cloudfront_viewer_country=US; cookiehub=eyJhbnN3ZXJlZCI6ZmFsc2UsInByZWNvbnNlbnQiOnRydWUsInJldmlzaW9uIjoxLCJkbnQiOmZhbHNlLCJhbGxvd1NhbGUiOnRydWUsImltcGxpY3QiOnRydWUsInJlZ2lvbiI6IkcwIiwidG9rZW4iOiJDTjlVQXpQMndmU05zeWNJZ25qc2ZwazRVTFlkRlYyRlNHZ0Eyd1VneXJGQmY2ajQ4Y0pLOXZPdXRmSDZJSUFkIiwidGltZXN0YW1wIjoiMjAyMy0wMy0xOFQxNDoyOTo0OC40OTBaIiwiY2F0ZWdvcmllcyI6W3siY2lkIjoxLCJpZCI6Im5lY2Vzc2FyeSIsInZhbHVlIjp0cnVlLCJwcmVjb25zZW50Ijp0cnVlLCJmaXJlZCI6ZmFsc2V9LHsiY2lkIjoyLCJpZCI6InByZWZlcmVuY2VzIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX0seyJjaWQiOjMsImlkIjoiYW5hbHl0aWNzIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX0seyJjaWQiOjQsImlkIjoibWFya2V0aW5nIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX1dfQ==; bb_visitor_id=14a7ba39; xi_time_diff=-4; xi_ip=173.66.186.169; xi_loc=38.8871%2C-77.0932; xi_org=undefined; xi_city=Arlington; xi_region=Virginia; xi_country=US; xi_postal=22201; fb_id_sent=true; oribili_user_guid=a10f212a-1b16-3d38-8c03-70d99ca5ced9; bb_visitor_aliased=true; monday_pricing_version=9; monday_has_free_tier=true; monday_has_student_plan=false; should_see_purchase_now=true; monday_free_tier_account_creation_item_resource_credit=200; use_old_storage_settings=true; platform_hide_basic=false; platform_free_tier_version=version(){return%222022_a%22}; users_option=5; jwt_session_token=eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI0NjAzNjIzMywidWlkIjozOTIwNzk4MiwiaWFkIjoiMjAyMy0wMy0yMlQwMTowNzozMy40MjhaIiwicGVyIjoibWU6c2Vzc2lvbiIsImFjdGlkIjoxNDk4NDIxNywicmduIjoidXNlMSJ9.qG1Nz4d9-sE17AgsmaXUxBCVUiW-4D1a5x-PXVV3ePk; region=use1; monday_active_account_slugs=%5B%22reachsuite%22%2C%22magitech3%22%5D; dapulseAccountSlugs=%5B%22reachsuite%22%2C%22magitech3%22%5D; dapulseLastLoginAccount=magitech3; platform_account_cluster=design_and_creative; platform_account_sub_cluster=creative_requests; platform_account_id=14984217; platform_user_id=39207982; bb_visitor_aliased_count=2; _hjSessionUser_2272600=eyJpZCI6IjFiNmNjYmQ4LWQ4NWEtNTJhMy04Y2NiLTVlMjA2OGQ0Y2QzOSIsImNyZWF0ZWQiOjE2ODM4NDEzMDg5NTMsImV4aXN0aW5nIjp0cnVlfQ==; hubspot_id_sent=true; _ga_500WE4S491=GS1.1.1683841334.1.0.1683841334.0.0.0; _ga_9VSK1Z4P7Y=GS1.1.1683841338.1.0.1683841342.0.0.0; _ga=GA1.2.1607865917.1679149789; _uetvid=56f54ac0c59911ed8cb0b33417395635; __zlcmid=1EzlghXlVcd3vOc; fs_uid=#WSWD#6093891254104064:5170483111145472:1683861128156::1#82371b8d#/1715378116; _ga_CHTGBR1G92=GS1.2.1687202447.1.0.1687202447.0.0.0; is_paying_account=false; platform_free_tier_name_free=true; experiment_visitor_id=1698723460194; dapulseUserId=39207982; monday_slug_details=%5B%7B%22un%22%3A%22Collin+Smith%22%2C%22ue%22%3A%22collin%40reachsuite.io%22%2C%22ui%22%3A39207982%2C%22us%22%3A2%2C%22an%22%3A%22Magitech3%22%2C%22ac%22%3A%222023-01-27T03%3A48%3A35Z%22%2C%22ai%22%3A14984217%2C%22sl%22%3A%22magitech3%22%2C%22lu%22%3A%222023-12-18T22%3A43%3A31%2B00%3A00%22%7D%5D; imf=nsde; zlp=utye; __cf_bm=m7bl_2phBiAOTMhu7N.45LfsqY54LL9zeOctEAHoOi4-1702939411-1-ATZNn4Pn87mie+B7hhguZito26WFEUj1MKRiQWDoMPdf8FxDWAYf0OTqTv6k6fHjaMgAVE+4cu0M+vOr2PzI+Ggg6nlQdRfK+IFaCsFgz7ix; cf_clearance=V_Uf6vJ1M2Pi88vDfP.5WTZ_7R2hzI1bJk7pRdapBJ8-1702939413-0-1-6a59f454.27e5ecee.3d58abb4-0.2.1702939413; ab.storage.deviceId.c3f41b74-f946-4349-a835-020a66f84a7d=%7B%22g%22%3A%229e6bc9af-b585-9848-e42e-5f9f650d3469%22%2C%22c%22%3A1695135882306%2C%22l%22%3A1702939414873%7D; ab.storage.userId.c3f41b74-f946-4349-a835-020a66f84a7d=%7B%22g%22%3A%2239207982%22%2C%22c%22%3A1695135882304%2C%22l%22%3A1702939414874%7D; ab.storage.sessionId.c3f41b74-f946-4349-a835-020a66f84a7d=%7B%22g%22%3A%226ad26989-5c97-b556-98e8-f55d58b09939%22%2C%22e%22%3A1702941214879%2C%22c%22%3A1702939414873%2C%22l%22%3A1702939414879%7D; encUserId=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjM0NjkwMzcyMzMsImRhdCI6MzkyMDc5ODJ9.6KaRJAHoD_2-KL6nZ8a1biaGJ1bhdJtjO9hnib5h-hE; dapulse_session=U0tSNXV1cEJrc21PSEVHSlN0UGtZeW5ONitIYkVSbDZuaGp1N0RwbktKM0w1dlcyY1JvTHorS3crN0htczdEdGt6YnNjbWNoQUZENVRlSDI3ZExEYkF2VUxKbmlGakMwMnR4M2E1U1RiNnBmamRMYlFYWkw2Q0J6bTN4MnoyWUN0VzVkU3NVenR6WHFkVnlOd3pDWkRMMmRxQ2VtYXdremt6Z0V5eWF5MkhwdXh3UmUyRnhMc0JhTmgrbkRBSm8rVVZOSFd4R2ZHV1hYZzNsNkplcElxZz09LS01SU5wMHdwdklxT0JESVN1L2VKQSt3PT0%3D--0ceab2c9ea4b0031360b0251acb72a1908f9e38b"
+      },
+      {
+        "name": "pragma",
+        "value": "no-cache"
+      },
+      {
+        "name": "sec-ch-ua",
+        "value": "\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\""
+      },
+      {
+        "name": "sec-ch-ua-mobile",
+        "value": "?0"
+      },
+      {
+        "name": "sec-ch-ua-platform",
+        "value": "\"macOS\""
+      },
+      {
+        "name": "sec-fetch-dest",
+        "value": "document"
+      },
+      {
+        "name": "sec-fetch-mode",
+        "value": "navigate"
+      },
+      {
+        "name": "sec-fetch-site",
+        "value": "none"
+      },
+      {
+        "name": "sec-fetch-user",
+        "value": "?1"
+      },
+      {
+        "name": "upgrade-insecure-requests",
+        "value": "1"
+      },
+      {
+        "name": "user-agent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+      }
+    ],
+    "queryString": [],
+    "cookies": [
+      {
+        "name": "m_landing_page",
+        "value": "https://monday.com/",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-03-17T14:29:48.000Z",
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "cloudfront_viewer_country",
+        "value": "US",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-03-19T18:15:16.000Z",
+        "httpOnly": false,
+        "secure": true
+      },
+      {
+        "name": "cookiehub",
+        "value": "eyJhbnN3ZXJlZCI6ZmFsc2UsInByZWNvbnNlbnQiOnRydWUsInJldmlzaW9uIjoxLCJkbnQiOmZhbHNlLCJhbGxvd1NhbGUiOnRydWUsImltcGxpY3QiOnRydWUsInJlZ2lvbiI6IkcwIiwidG9rZW4iOiJDTjlVQXpQMndmU05zeWNJZ25qc2ZwazRVTFlkRlYyRlNHZ0Eyd1VneXJGQmY2ajQ4Y0pLOXZPdXRmSDZJSUFkIiwidGltZXN0YW1wIjoiMjAyMy0wMy0xOFQxNDoyOTo0OC40OTBaIiwiY2F0ZWdvcmllcyI6W3siY2lkIjoxLCJpZCI6Im5lY2Vzc2FyeSIsInZhbHVlIjp0cnVlLCJwcmVjb25zZW50Ijp0cnVlLCJmaXJlZCI6ZmFsc2V9LHsiY2lkIjoyLCJpZCI6InByZWZlcmVuY2VzIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX0seyJjaWQiOjMsImlkIjoiYW5hbHl0aWNzIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX0seyJjaWQiOjQsImlkIjoibWFya2V0aW5nIiwidmFsdWUiOnRydWUsInByZWNvbnNlbnQiOnRydWUsImZpcmVkIjpmYWxzZX1dfQ==",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-05-10T21:55:26.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "bb_visitor_id",
+        "value": "14a7ba39",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:48.864Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_time_diff",
+        "value": "-4",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_ip",
+        "value": "173.66.186.169",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_loc",
+        "value": "38.8871%2C-77.0932",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_org",
+        "value": "undefined",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_city",
+        "value": "Arlington",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_region",
+        "value": "Virginia",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_country",
+        "value": "US",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "xi_postal",
+        "value": "22201",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:49.033Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "fb_id_sent",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-21T14:29:50.447Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "oribili_user_guid",
+        "value": "a10f212a-1b16-3d38-8c03-70d99ca5ced9",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-03-19T18:15:18.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "bb_visitor_aliased",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-25T01:07:40.719Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_pricing_version",
+        "value": "9",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_has_free_tier",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_has_student_plan",
+        "value": "false",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "should_see_purchase_now",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_free_tier_account_creation_item_resource_credit",
+        "value": "200",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "use_old_storage_settings",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_hide_basic",
+        "value": "false",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_free_tier_version",
+        "value": "version(){return%222022_a%22}",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "users_option",
+        "value": "5",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:35.117Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "jwt_session_token",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI0NjAzNjIzMywidWlkIjozOTIwNzk4MiwiaWFkIjoiMjAyMy0wMy0yMlQwMTowNzozMy40MjhaIiwicGVyIjoibWU6c2Vzc2lvbiIsImFjdGlkIjoxNDk4NDIxNywicmduIjoidXNlMSJ9.qG1Nz4d9-sE17AgsmaXUxBCVUiW-4D1a5x-PXVV3ePk",
+        "path": "/",
+        "domain": "magitech3.monday.com",
+        "expires": "2024-04-25T01:07:33.635Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "region",
+        "value": "use1",
+        "path": "/",
+        "domain": "magitech3.monday.com",
+        "expires": "2024-03-22T01:07:33.635Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_active_account_slugs",
+        "value": "%5B%22reachsuite%22%2C%22magitech3%22%5D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-03-22T01:07:34.107Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "dapulseAccountSlugs",
+        "value": "%5B%22reachsuite%22%2C%22magitech3%22%5D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-03-22T01:07:34.107Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "dapulseLastLoginAccount",
+        "value": "magitech3",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:36.850Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_account_cluster",
+        "value": "design_and_creative",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_account_sub_cluster",
+        "value": "creative_requests",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_account_id",
+        "value": "14984217",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_user_id",
+        "value": "39207982",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "bb_visitor_aliased_count",
+        "value": "2",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-04-25T01:07:40.720Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_hjSessionUser_2272600",
+        "value": "eyJpZCI6IjFiNmNjYmQ4LWQ4NWEtNTJhMy04Y2NiLTVlMjA2OGQ0Y2QzOSIsImNyZWF0ZWQiOjE2ODM4NDEzMDg5NTMsImV4aXN0aW5nIjp0cnVlfQ==",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-05-10T21:55:26.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "hubspot_id_sent",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-06-14T21:41:53.283Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_ga_500WE4S491",
+        "value": "GS1.1.1683841334.1.0.1683841334.0.0.0",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-06-14T21:42:14.019Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_ga_9VSK1Z4P7Y",
+        "value": "GS1.1.1683841338.1.0.1683841342.0.0.0",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-06-14T21:42:22.636Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.1607865917.1679149789",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-07-23T19:20:46.791Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "_uetvid",
+        "value": "56f54ac0c59911ed8cb0b33417395635",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-06-04T21:55:27.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "__zlcmid",
+        "value": "1EzlghXlVcd3vOc",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-05-11T18:16:49.000Z",
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "fs_uid",
+        "value": "#WSWD#6093891254104064:5170483111145472:1683861128156::1#82371b8d#/1715378116",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-05-10T21:55:16.000Z",
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Strict"
+      },
+      {
+        "name": "_ga_CHTGBR1G92",
+        "value": "GS1.2.1687202447.1.0.1687202447.0.0.0",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-07-23T19:20:47.035Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "is_paying_account",
+        "value": "false",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "platform_free_tier_name_free",
+        "value": "true",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "experiment_visitor_id",
+        "value": "1698723460194",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-01-29T03:37:40.214Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "dapulseUserId",
+        "value": "39207982",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "1969-12-31T23:59:59.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "monday_slug_details",
+        "value": "%5B%7B%22un%22%3A%22Collin+Smith%22%2C%22ue%22%3A%22collin%40reachsuite.io%22%2C%22ui%22%3A39207982%2C%22us%22%3A2%2C%22an%22%3A%22Magitech3%22%2C%22ac%22%3A%222023-01-27T03%3A48%3A35Z%22%2C%22ai%22%3A14984217%2C%22sl%22%3A%22magitech3%22%2C%22lu%22%3A%222023-12-18T22%3A43%3A31%2B00%3A00%22%7D%5D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-18T22:43:31.940Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "imf",
+        "value": "nsde",
+        "path": "/",
+        "domain": "magitech3.monday.com",
+        "expires": "2023-12-19T22:43:31.940Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "zlp",
+        "value": "utye",
+        "path": "/",
+        "domain": "magitech3.monday.com",
+        "expires": "2023-12-19T22:43:31.940Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "__cf_bm",
+        "value": "m7bl_2phBiAOTMhu7N.45LfsqY54LL9zeOctEAHoOi4-1702939411-1-ATZNn4Pn87mie+B7hhguZito26WFEUj1MKRiQWDoMPdf8FxDWAYf0OTqTv6k6fHjaMgAVE+4cu0M+vOr2PzI+Ggg6nlQdRfK+IFaCsFgz7ix",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2023-12-18T23:13:31.940Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "cf_clearance",
+        "value": "V_Uf6vJ1M2Pi88vDfP.5WTZ_7R2hzI1bJk7pRdapBJ8-1702939413-0-1-6a59f454.27e5ecee.3d58abb4-0.2.1702939413",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2024-12-17T22:43:33.121Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "ab.storage.deviceId.c3f41b74-f946-4349-a835-020a66f84a7d",
+        "value": "%7B%22g%22%3A%229e6bc9af-b585-9848-e42e-5f9f650d3469%22%2C%22c%22%3A1695135882306%2C%22l%22%3A1702939414873%7D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:34.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "ab.storage.userId.c3f41b74-f946-4349-a835-020a66f84a7d",
+        "value": "%7B%22g%22%3A%2239207982%22%2C%22c%22%3A1695135882304%2C%22l%22%3A1702939414874%7D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:34.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "ab.storage.sessionId.c3f41b74-f946-4349-a835-020a66f84a7d",
+        "value": "%7B%22g%22%3A%226ad26989-5c97-b556-98e8-f55d58b09939%22%2C%22e%22%3A1702941214879%2C%22c%22%3A1702939414873%2C%22l%22%3A1702939414879%7D",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:34.000Z",
+        "httpOnly": false,
+        "secure": false
+      },
+      {
+        "name": "encUserId",
+        "value": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjM0NjkwMzcyMzMsImRhdCI6MzkyMDc5ODJ9.6KaRJAHoD_2-KL6nZ8a1biaGJ1bhdJtjO9hnib5h-hE",
+        "path": "/",
+        "domain": ".monday.com",
+        "expires": "2025-01-21T22:43:36.852Z",
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "dapulse_session",
+        "value": "U0tSNXV1cEJrc21PSEVHSlN0UGtZeW5ONitIYkVSbDZuaGp1N0RwbktKM0w1dlcyY1JvTHorS3crN0htczdEdGt6YnNjbWNoQUZENVRlSDI3ZExEYkF2VUxKbmlGakMwMnR4M2E1U1RiNnBmamRMYlFYWkw2Q0J6bTN4MnoyWUN0VzVkU3NVenR6WHFkVnlOd3pDWkRMMmRxQ2VtYXdremt6Z0V5eWF5MkhwdXh3UmUyRnhMc0JhTmgrbkRBSm8rVVZOSFd4R2ZHV1hYZzNsNkplcElxZz09LS01SU5wMHdwdklxT0JESVN1L2VKQSt3PT0%3D--0ceab2c9ea4b0031360b0251acb72a1908f9e38b",
+        "path": "/",
+        "domain": "magitech3.monday.com",
+        "expires": "2024-12-18T04:32:48.852Z",
+        "httpOnly": true,
+        "secure": true
+      }
+    ],
+    "headersSize": -1,
+    "bodySize": 0
+  }
+}
