@@ -7,9 +7,9 @@ This repo contains the code for running the ReachSuite AI in 2 environments:
 
 ## Setup Workspace
 
-1. Clone the git repo and `cd rs-ai`
+### 1. Clone the git repo and `cd rs-ai`
 
-2. Create virtual env and install dependencies
+### 2. Create virtual env and install dependencies
 
 ```sh
 ./scripts/create_venv.sh
@@ -21,14 +21,14 @@ This script will:
 - Install project dependencies
 - Install the `rs-ai` project in editable mode
 
-3. Activate the virtual env:
+### 3. Activate the virtual env:
 
 ```sh
 source aienv/bin/activate
 ```
 
 <details>
-<summary>Create virtual env manually</summary>
+<summary>How to create the virtual env manually</summary>
 
 ### To create the virtual env manually
 
@@ -47,19 +47,19 @@ pip install phidata
 
 </details>
 
-4. Setup workspace:
+### 4. Setup workspace:
 
 ```sh
 phi ws setup
 ```
 
-5. Copy `workspace/example_secrets` to `workspace/secrets`:
+### 5. Copy `workspace/example_secrets` to `workspace/secrets`:
 
 ```sh
 cp -r workspace/example_secrets workspace/secrets
 ```
 
-6. Copy the `.env` file and set your `OPENAI_API_KEY`
+### 6. Copy the `.env` file and set your `OPENAI_API_KEY`
 
 ```sh
 cp example.env .env
@@ -67,25 +67,27 @@ cp example.env .env
 
 ## Local ReachSuite AI
 
-1. Install [docker desktop](https://www.docker.com/products/docker-desktop)
+### 1. Install [docker desktop](https://www.docker.com/products/docker-desktop)
 
-2. Start the workspace using:
-
-```sh
-phi ws up
-```
-
-3. Test the anonymizer from the command line
+### 2. Test the anonymizer from the command line
 
 ```sh
 python ai/test/anonymizer.py
 ```
 
-Open [localhost:8000/docs](http://localhost:8000/docs) to view the FastApi docs.
+### 3. Start the workspace using:
 
-4. Test the `/v1/anonymize/request` with the json from: https://gist.github.com/ashpreetbedi/f9209c9455f31a9c455a1e35947a4f89
+```sh
+phi ws up
+```
 
-5. Stop the workspace using:
+### 4. Test the Anonymizer API
+
+- Open [localhost:8000/docs](http://localhost:8000/docs) to view the FastApi docs.
+
+- Test the `/v1/anonymize/request` with the json from: https://gist.github.com/ashpreetbedi/f9209c9455f31a9c455a1e35947a4f89
+
+### 5. Stop the workspace using:
 
 ```sh
 phi ws down
